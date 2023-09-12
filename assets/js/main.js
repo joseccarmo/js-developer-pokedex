@@ -12,7 +12,7 @@ function pokemonDetails(number) {
 
 function convertPokemonToLi(pokemon) {
   return `
-        <li class="pokemon ${pokemon.type}" onclick="pokemonDetails(${
+        <li class="pokemon click ${pokemon.type}" onclick="pokemonDetails(${
     pokemon.number
   })">
             <span class="number">#${pokemon.number}</span>
